@@ -1,0 +1,1162 @@
+{
+ "duration": 210,
+ "shots": [
+  {
+   "n": 1,
+   "start": 0,
+   "d": 4,
+   "title": "雨后街角"
+  },
+  {
+   "n": 2,
+   "start": 4,
+   "d": 4,
+   "title": "小鞋与行李箱"
+  },
+  {
+   "n": 3,
+   "start": 8,
+   "d": 3,
+   "title": "揉皱"
+  },
+  {
+   "n": 4,
+   "start": 11,
+   "d": 4,
+   "title": "纸团落下"
+  },
+  {
+   "n": 5,
+   "start": 15,
+   "d": 5,
+   "title": "豆眼"
+  },
+  {
+   "n": 6,
+   "start": 20,
+   "d": 5,
+   "title": "挤出投信口"
+  },
+  {
+   "n": 7,
+   "start": 25,
+   "d": 3,
+   "title": "片名"
+  },
+  {
+   "n": 8,
+   "start": 28,
+   "d": 6,
+   "title": "阿姨上坡"
+  },
+  {
+   "n": 9,
+   "start": 34,
+   "d": 6,
+   "title": "一杯热水"
+  },
+  {
+   "n": 10,
+   "start": 40,
+   "d": 5,
+   "title": "犹豫"
+  },
+  {
+   "n": 11,
+   "start": 45,
+   "d": 4,
+   "title": "信滑落"
+  },
+  {
+   "n": 12,
+   "start": 49,
+   "d": 3,
+   "title": "捡信"
+  },
+  {
+   "n": 13,
+   "start": 52,
+   "d": 6,
+   "title": "三步验信"
+  },
+  {
+   "n": 14,
+   "start": 58,
+   "d": 2,
+   "title": "绳结"
+  },
+  {
+   "n": 15,
+   "start": 60,
+   "d": 4,
+   "title": "窸窣"
+  },
+  {
+   "n": 16,
+   "start": 64,
+   "d": 4,
+   "title": "对视"
+  },
+  {
+   "n": 17,
+   "start": 68,
+   "d": 5,
+   "title": "要清空了"
+  },
+  {
+   "n": 18,
+   "start": 73,
+   "d": 6,
+   "title": "绊倒"
+  },
+  {
+   "n": 19,
+   "start": 79,
+   "d": 7,
+   "title": "拽出团团"
+  },
+  {
+   "n": 20,
+   "start": 86,
+   "d": 4,
+   "title": "阿姨离开"
+  },
+  {
+   "n": 21,
+   "start": 90,
+   "d": 6,
+   "title": "拍拍"
+  },
+  {
+   "n": 22,
+   "start": 96,
+   "d": 4,
+   "title": "两只眼睛"
+  },
+  {
+   "n": 23,
+   "start": 100,
+   "d": 5,
+   "title": "海风"
+  },
+  {
+   "n": 24,
+   "start": 105,
+   "d": 6,
+   "title": "追"
+  },
+  {
+   "n": 25,
+   "start": 111,
+   "d": 4,
+   "title": "钻包"
+  },
+  {
+   "n": 26,
+   "start": 115,
+   "d": 5,
+   "title": "一模一样的结"
+  },
+  {
+   "n": 27,
+   "start": 120,
+   "d": 6,
+   "title": "到处都是绳结"
+  },
+  {
+   "n": 28,
+   "start": 126,
+   "d": 6,
+   "title": "窗台"
+  },
+  {
+   "n": 29,
+   "start": 132,
+   "d": 8,
+   "title": "窗内"
+  },
+  {
+   "n": 30,
+   "start": 140,
+   "d": 5,
+   "title": "恍然大悟"
+  },
+  {
+   "n": 31,
+   "start": 145,
+   "d": 6,
+   "title": "盖戳"
+  },
+  {
+   "n": 32,
+   "start": 151,
+   "d": 4,
+   "title": "躲起来"
+  },
+  {
+   "n": 33,
+   "start": 155,
+   "d": 6,
+   "title": "摸到信"
+  },
+  {
+   "n": 34,
+   "start": 161,
+   "d": 8,
+   "title": "一颗糖"
+  },
+  {
+   "n": 35,
+   "start": 169,
+   "d": 6,
+   "title": "橘子味"
+  },
+  {
+   "n": 36,
+   "start": 175,
+   "d": 5,
+   "title": "第二天"
+  },
+  {
+   "n": 37,
+   "start": 180,
+   "d": 6,
+   "title": "糖纸结"
+  },
+  {
+   "n": 38,
+   "start": 186,
+   "d": 6,
+   "title": "隔街举杯"
+  },
+  {
+   "n": 39,
+   "start": 192,
+   "d": 4,
+   "title": "也举起杯"
+  },
+  {
+   "n": 40,
+   "start": 196,
+   "d": 5,
+   "title": "邮筒顶上"
+  },
+  {
+   "n": 41,
+   "start": 201,
+   "d": 5,
+   "title": "展开一角"
+  },
+  {
+   "n": 42,
+   "start": 206,
+   "d": 4,
+   "title": "收"
+  }
+ ],
+ "cues": [
+  {
+   "t": 0,
+   "name": "drips",
+   "gain": 0.7,
+   "shot": 1,
+   "dur": 15
+  },
+  {
+   "t": 0,
+   "name": "coldwind",
+   "gain": 0.5,
+   "shot": 1,
+   "dur": 15
+  },
+  {
+   "t": 4.1,
+   "name": "wheels",
+   "gain": 0.8,
+   "shot": 2,
+   "dur": 1.7
+  },
+  {
+   "t": 4.1,
+   "name": "footsteps",
+   "gain": 0.4,
+   "shot": 2,
+   "dur": 1.7
+  },
+  {
+   "t": 5.8,
+   "name": "wheelstop",
+   "gain": 0.6,
+   "shot": 2
+  },
+  {
+   "t": 8.5,
+   "name": "crumple",
+   "gain": 1,
+   "shot": 3
+  },
+  {
+   "t": 11.85,
+   "name": "paperdrop",
+   "gain": 0.7,
+   "shot": 4
+  },
+  {
+   "t": 12.2,
+   "name": "footsteps",
+   "gain": 0.7,
+   "shot": 4,
+   "dur": 1.5
+  },
+  {
+   "t": 12.2,
+   "name": "wheels",
+   "gain": 0.6,
+   "shot": 4,
+   "dur": 1.5
+  },
+  {
+   "t": 12.6,
+   "name": "horn",
+   "gain": 0.35,
+   "shot": 4
+  },
+  {
+   "t": 16,
+   "name": "inhale",
+   "gain": 0.5,
+   "shot": 5
+  },
+  {
+   "t": 17.1,
+   "name": "tick",
+   "gain": 0.15,
+   "shot": 5
+  },
+  {
+   "t": 18.3,
+   "name": "tick",
+   "gain": 0.15,
+   "shot": 5
+  },
+  {
+   "t": 20.3,
+   "name": "squeeze",
+   "gain": 0.6,
+   "shot": 6
+  },
+  {
+   "t": 21.1,
+   "name": "tug",
+   "gain": 0.6,
+   "shot": 6,
+   "dur": 1.3
+  },
+  {
+   "t": 22.4,
+   "name": "pop",
+   "gain": 0.7,
+   "shot": 6
+  },
+  {
+   "t": 22.95,
+   "name": "thud",
+   "gain": 0.8,
+   "shot": 6
+  },
+  {
+   "t": 22.95,
+   "name": "bell",
+   "gain": 0.9,
+   "shot": 6
+  },
+  {
+   "t": 23.8,
+   "name": "rustle",
+   "gain": 0.3,
+   "shot": 6
+  },
+  {
+   "t": 25.15,
+   "name": "motif",
+   "gain": 0.8,
+   "shot": 7,
+   "variant": "title"
+  },
+  {
+   "t": 28,
+   "name": "cart",
+   "gain": 0.6,
+   "shot": 8,
+   "dur": 4.2
+  },
+  {
+   "t": 28,
+   "name": "footsteps",
+   "gain": 0.35,
+   "shot": 8,
+   "dur": 4.2
+  },
+  {
+   "t": 32.4,
+   "name": "sweep",
+   "gain": 0.45,
+   "shot": 8,
+   "dur": 1.6
+  },
+  {
+   "t": 34,
+   "name": "footsteps",
+   "gain": 0.45,
+   "shot": 9,
+   "dur": 1.5
+  },
+  {
+   "t": 37.3,
+   "name": "clink",
+   "gain": 0.3,
+   "shot": 9
+  },
+  {
+   "t": 38.1,
+   "name": "sip",
+   "gain": 0.7,
+   "shot": 9
+  },
+  {
+   "t": 38.8,
+   "name": "sigh",
+   "gain": 0.6,
+   "shot": 9
+  },
+  {
+   "t": 40.8,
+   "name": "paper",
+   "gain": 0.45,
+   "shot": 10
+  },
+  {
+   "t": 44.2,
+   "name": "paper",
+   "gain": 0.4,
+   "shot": 10
+  },
+  {
+   "t": 45,
+   "name": "footsteps",
+   "gain": 0.4,
+   "shot": 11,
+   "dur": 2.5
+  },
+  {
+   "t": 46,
+   "name": "paper",
+   "gain": 0.5,
+   "shot": 11
+  },
+  {
+   "t": 46.85,
+   "name": "paperland",
+   "gain": 0.45,
+   "shot": 11
+  },
+  {
+   "t": 49,
+   "name": "scamper",
+   "gain": 0.55,
+   "shot": 12,
+   "dur": 1.8
+  },
+  {
+   "t": 49,
+   "name": "bell",
+   "gain": 0.25,
+   "shot": 12
+  },
+  {
+   "t": 51,
+   "name": "paper",
+   "gain": 0.5,
+   "shot": 12
+  },
+  {
+   "t": 52.3,
+   "name": "shimmer",
+   "gain": 0.35,
+   "shot": 13
+  },
+  {
+   "t": 54.3,
+   "name": "candyrattle",
+   "gain": 0.9,
+   "shot": 13,
+   "dur": 1.1
+  },
+  {
+   "t": 56.3,
+   "name": "sniff",
+   "gain": 0.6,
+   "shot": 13
+  },
+  {
+   "t": 56.9,
+   "name": "happy",
+   "gain": 0.4,
+   "shot": 13
+  },
+  {
+   "t": 58.25,
+   "name": "paper",
+   "gain": 0.45,
+   "shot": 14
+  },
+  {
+   "t": 59.3,
+   "name": "hmm",
+   "gain": 0.5,
+   "shot": 14
+  },
+  {
+   "t": 60.4,
+   "name": "rustle",
+   "gain": 0.7,
+   "shot": 15
+  },
+  {
+   "t": 61.3,
+   "name": "notice",
+   "gain": 0.35,
+   "shot": 15
+  },
+  {
+   "t": 62.4,
+   "name": "rustle",
+   "gain": 0.4,
+   "shot": 15
+  },
+  {
+   "t": 64.8,
+   "name": "rustlesoft",
+   "gain": 0.4,
+   "shot": 16
+  },
+  {
+   "t": 66.6,
+   "name": "crumple",
+   "gain": 0.85,
+   "shot": 16
+  },
+  {
+   "t": 66.62,
+   "name": "whoosh",
+   "gain": 0.35,
+   "shot": 16
+  },
+  {
+   "t": 68,
+   "name": "sweep",
+   "gain": 0.6,
+   "shot": 17,
+   "dur": 2.2
+  },
+  {
+   "t": 70.3,
+   "name": "broomlean",
+   "gain": 0.4,
+   "shot": 17
+  },
+  {
+   "t": 70.7,
+   "name": "lid",
+   "gain": 0.6,
+   "shot": 17
+  },
+  {
+   "t": 71.3,
+   "name": "plastic",
+   "gain": 0.6,
+   "shot": 17,
+   "dur": 1.7
+  },
+  {
+   "t": 73,
+   "name": "scamper",
+   "gain": 0.65,
+   "shot": 18,
+   "dur": 2.85
+  },
+  {
+   "t": 73,
+   "name": "bellmess",
+   "gain": 0.4,
+   "shot": 18,
+   "dur": 2.8
+  },
+  {
+   "t": 75.85,
+   "name": "clatter",
+   "gain": 0.7,
+   "shot": 18
+  },
+  {
+   "t": 75.9,
+   "name": "bellmess",
+   "gain": 0.8,
+   "shot": 18,
+   "dur": 0.9
+  },
+  {
+   "t": 76.75,
+   "name": "thud",
+   "gain": 0.6,
+   "shot": 18
+  },
+  {
+   "t": 73,
+   "name": "plastic",
+   "gain": 0.25,
+   "shot": 18,
+   "dur": 6
+  },
+  {
+   "t": 79,
+   "name": "plastic",
+   "gain": 0.6,
+   "shot": 19,
+   "dur": 4.4
+  },
+  {
+   "t": 79,
+   "name": "scamper",
+   "gain": 0.4,
+   "shot": 19,
+   "dur": 1
+  },
+  {
+   "t": 80,
+   "name": "jump",
+   "gain": 0.45,
+   "shot": 19
+  },
+  {
+   "t": 80.6,
+   "name": "rustle",
+   "gain": 0.7,
+   "shot": 19,
+   "dur": 2
+  },
+  {
+   "t": 80.6,
+   "name": "bellmess",
+   "gain": 0.6,
+   "shot": 19,
+   "dur": 2
+  },
+  {
+   "t": 82.6,
+   "name": "pop",
+   "gain": 0.6,
+   "shot": 19
+  },
+  {
+   "t": 83.4,
+   "name": "thud",
+   "gain": 0.8,
+   "shot": 19
+  },
+  {
+   "t": 83.45,
+   "name": "crumple",
+   "gain": 0.6,
+   "shot": 19
+  },
+  {
+   "t": 83.7,
+   "name": "tie",
+   "gain": 0.6,
+   "shot": 19,
+   "dur": 1.4
+  },
+  {
+   "t": 86.9,
+   "name": "throw",
+   "gain": 0.5,
+   "shot": 20
+  },
+  {
+   "t": 87.4,
+   "name": "thudsoft",
+   "gain": 0.5,
+   "shot": 20
+  },
+  {
+   "t": 87.5,
+   "name": "lid",
+   "gain": 0.4,
+   "shot": 20
+  },
+  {
+   "t": 88,
+   "name": "cart",
+   "gain": 0.6,
+   "shot": 20,
+   "dur": 2.2
+  },
+  {
+   "t": 88,
+   "name": "footsteps",
+   "gain": 0.4,
+   "shot": 20,
+   "dur": 2
+  },
+  {
+   "t": 90,
+   "name": "tremble",
+   "gain": 0.4,
+   "shot": 21,
+   "dur": 4.5
+  },
+  {
+   "t": 91.6,
+   "name": "capspin",
+   "gain": 0.45,
+   "shot": 21
+  },
+  {
+   "t": 94.1,
+   "name": "pat",
+   "gain": 0.5,
+   "shot": 21
+  },
+  {
+   "t": 94.6,
+   "name": "pat",
+   "gain": 0.5,
+   "shot": 21
+  },
+  {
+   "t": 95.1,
+   "name": "pat",
+   "gain": 0.45,
+   "shot": 21
+  },
+  {
+   "t": 97,
+   "name": "rustlesoft",
+   "gain": 0.5,
+   "shot": 22
+  },
+  {
+   "t": 98.4,
+   "name": "rustlesoft",
+   "gain": 0.4,
+   "shot": 22
+  },
+  {
+   "t": 100.5,
+   "name": "wind",
+   "gain": 1,
+   "shot": 23,
+   "dur": 4.5
+  },
+  {
+   "t": 101.3,
+   "name": "paperroll",
+   "gain": 0.6,
+   "shot": 23,
+   "dur": 3.7
+  },
+  {
+   "t": 101.45,
+   "name": "notice",
+   "gain": 0.4,
+   "shot": 23
+  },
+  {
+   "t": 102.8,
+   "name": "scamper",
+   "gain": 0.5,
+   "shot": 23,
+   "dur": 2.2
+  },
+  {
+   "t": 102.8,
+   "name": "bellmess",
+   "gain": 0.5,
+   "shot": 23,
+   "dur": 2.2
+  },
+  {
+   "t": 105,
+   "name": "scamper",
+   "gain": 0.6,
+   "shot": 24,
+   "dur": 6
+  },
+  {
+   "t": 105,
+   "name": "bellmess",
+   "gain": 0.55,
+   "shot": 24,
+   "dur": 6
+  },
+  {
+   "t": 105,
+   "name": "paperroll",
+   "gain": 0.55,
+   "shot": 24,
+   "dur": 5.6
+  },
+  {
+   "t": 105,
+   "name": "wind",
+   "gain": 0.6,
+   "shot": 24,
+   "dur": 5
+  },
+  {
+   "t": 107.7,
+   "name": "bounce",
+   "gain": 0.5,
+   "shot": 24
+  },
+  {
+   "t": 108.3,
+   "name": "bounce",
+   "gain": 0.45,
+   "shot": 24
+  },
+  {
+   "t": 108.9,
+   "name": "bounce",
+   "gain": 0.4,
+   "shot": 24
+  },
+  {
+   "t": 109.4,
+   "name": "bounce",
+   "gain": 0.35,
+   "shot": 24
+  },
+  {
+   "t": 111.45,
+   "name": "bump",
+   "gain": 0.6,
+   "shot": 25
+  },
+  {
+   "t": 112.4,
+   "name": "pant",
+   "gain": 0.45,
+   "shot": 25,
+   "dur": 1.6
+  },
+  {
+   "t": 113.9,
+   "name": "whoosh",
+   "gain": 0.5,
+   "shot": 25
+  },
+  {
+   "t": 114.25,
+   "name": "poof",
+   "gain": 0.6,
+   "shot": 25
+  },
+  {
+   "t": 114.3,
+   "name": "bell",
+   "gain": 0.45,
+   "shot": 25
+  },
+  {
+   "t": 115,
+   "name": "windfade",
+   "gain": 0.35,
+   "shot": 26,
+   "dur": 1.2
+  },
+  {
+   "t": 117.8,
+   "name": "notice",
+   "gain": 0.45,
+   "shot": 26
+  },
+  {
+   "t": 120,
+   "name": "roomtone",
+   "gain": 0.35,
+   "shot": 27,
+   "dur": 6
+  },
+  {
+   "t": 126,
+   "name": "climb",
+   "gain": 0.5,
+   "shot": 28,
+   "dur": 2.4
+  },
+  {
+   "t": 126.3,
+   "name": "bellmess",
+   "gain": 0.35,
+   "shot": 28,
+   "dur": 1.8
+  },
+  {
+   "t": 128.5,
+   "name": "bell",
+   "gain": 0.3,
+   "shot": 28
+  },
+  {
+   "t": 129,
+   "name": "bellmute",
+   "gain": 0.55,
+   "shot": 28
+  },
+  {
+   "t": 132,
+   "name": "roomtone",
+   "gain": 0.55,
+   "shot": 29,
+   "dur": 8
+  },
+  {
+   "t": 132,
+   "name": "footsoft",
+   "gain": 0.35,
+   "shot": 29,
+   "dur": 6
+  },
+  {
+   "t": 132,
+   "name": "rope",
+   "gain": 0.3,
+   "shot": 29,
+   "dur": 6
+  },
+  {
+   "t": 138.6,
+   "name": "kettle",
+   "gain": 0.55,
+   "shot": 29
+  },
+  {
+   "t": 139.2,
+   "name": "clink",
+   "gain": 0.3,
+   "shot": 29
+  },
+  {
+   "t": 140.6,
+   "name": "windsoft",
+   "gain": 0.5,
+   "shot": 30,
+   "dur": 1
+  },
+  {
+   "t": 141,
+   "name": "paperbrush",
+   "gain": 0.6,
+   "shot": 30
+  },
+  {
+   "t": 143.6,
+   "name": "realize",
+   "gain": 0.6,
+   "shot": 30
+  },
+  {
+   "t": 145.3,
+   "name": "paper",
+   "gain": 0.5,
+   "shot": 31
+  },
+  {
+   "t": 146,
+   "name": "jump",
+   "gain": 0.4,
+   "shot": 31
+  },
+  {
+   "t": 146.6,
+   "name": "paper",
+   "gain": 0.45,
+   "shot": 31
+  },
+  {
+   "t": 147.25,
+   "name": "step",
+   "gain": 0.3,
+   "shot": 31
+  },
+  {
+   "t": 147.65,
+   "name": "step",
+   "gain": 0.3,
+   "shot": 31
+  },
+  {
+   "t": 149,
+   "name": "dong",
+   "gain": 1,
+   "shot": 31
+  },
+  {
+   "t": 151,
+   "name": "scamper",
+   "gain": 0.45,
+   "shot": 32,
+   "dur": 1.3
+  },
+  {
+   "t": 153,
+   "name": "door",
+   "gain": 0.7,
+   "shot": 32
+  },
+  {
+   "t": 155.5,
+   "name": "doorcreak",
+   "gain": 0.25,
+   "shot": 33
+  },
+  {
+   "t": 157.9,
+   "name": "rope",
+   "gain": 0.45,
+   "shot": 33,
+   "dur": 0.6
+  },
+  {
+   "t": 159,
+   "name": "paper",
+   "gain": 0.6,
+   "shot": 33
+  },
+  {
+   "t": 160.2,
+   "name": "paper",
+   "gain": 0.55,
+   "shot": 33
+  },
+  {
+   "t": 162.5,
+   "name": "paper",
+   "gain": 0.6,
+   "shot": 34
+  },
+  {
+   "t": 163.5,
+   "name": "paper",
+   "gain": 0.55,
+   "shot": 34
+  },
+  {
+   "t": 163.9,
+   "name": "paperbrush",
+   "gain": 0.35,
+   "shot": 34,
+   "dur": 0.7
+  },
+  {
+   "t": 165.6,
+   "name": "candyrattle",
+   "gain": 0.6,
+   "shot": 34,
+   "dur": 0.5
+  },
+  {
+   "t": 166.6,
+   "name": "wrapper",
+   "gain": 0.8,
+   "shot": 34,
+   "dur": 1.6
+  },
+  {
+   "t": 170.9,
+   "name": "sniff",
+   "gain": 0.55,
+   "shot": 35
+  },
+  {
+   "t": 172,
+   "name": "sigh",
+   "gain": 0.5,
+   "shot": 35
+  },
+  {
+   "t": 175,
+   "name": "cart",
+   "gain": 0.55,
+   "shot": 36,
+   "dur": 4
+  },
+  {
+   "t": 175,
+   "name": "sweep",
+   "gain": 0.3,
+   "shot": 36,
+   "dur": 5
+  },
+  {
+   "t": 175,
+   "name": "birds",
+   "gain": 0.45,
+   "shot": 36,
+   "dur": 5
+  },
+  {
+   "t": 182.1,
+   "name": "wrapper",
+   "gain": 0.45,
+   "shot": 37,
+   "dur": 0.4
+  },
+  {
+   "t": 187,
+   "name": "seagull",
+   "gain": 0.55,
+   "shot": 38
+  },
+  {
+   "t": 186.2,
+   "name": "music",
+   "gain": 0.75,
+   "shot": 38,
+   "dur": 19.6
+  },
+  {
+   "t": 196,
+   "name": "birds",
+   "gain": 0.35,
+   "shot": 40,
+   "dur": 5
+  },
+  {
+   "t": 202,
+   "name": "cha",
+   "gain": 1,
+   "shot": 41
+  },
+  {
+   "t": 204,
+   "name": "whoosh",
+   "gain": 0.3,
+   "shot": 41
+  },
+  {
+   "t": 204.45,
+   "name": "poof",
+   "gain": 0.4,
+   "shot": 41
+  },
+  {
+   "t": 208.3,
+   "name": "bell",
+   "gain": 0.7,
+   "shot": 42
+  }
+ ]
+}

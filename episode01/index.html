@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>一杯热水 · 第1集</title>
+<style>
+  html, body { margin: 0; background: #171310; color: #e9dfcc; font-family: sans-serif; }
+  #wrap { max-width: 1280px; margin: 0 auto; padding: 16px; }
+  #out { width: 100%; height: auto; display: block; background: #f1e8d8; }
+  #paint { display: none; }
+  #bar { display: flex; gap: 12px; align-items: center; margin-top: 8px; font-size: 13px; }
+  #seek { flex: 1; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="out" width="1920" height="1080"></canvas>
+  <canvas id="paint" width="1920" height="1080"></canvas>
+  <div id="bar">
+    <button id="play">播放</button>
+    <input id="seek" type="range" min="0" max="210" step="0.01" value="0">
+    <span id="time">0:00</span>
+    <span id="mode"></span>
+  </div>
+  <audio id="audio" src="build/ep01_audio.wav" preload="auto"></audio>
+</div>
+<script src="src/core.js"></script>
+<script src="src/chars.js"></script>
+<script src="src/rig.js"></script>
+<script src="src/world.js"></script>
+<script src="src/shots1.js"></script>
+<script src="src/shots2.js"></script>
+<script src="src/shots.js"></script>
+<script src="src/main.js"></script>
+<script type="module">
+import { createGPU } from './src/gpu.js';
+
+const params = new URLSearchParams(location.search);
+const out = document.getElementById('out');
+const paint = document.getElementById('paint');
+if (params.has('w')) {
+  const w = +params.get('w'), h = Math.round(w * 9 / 16);
+  out.width = paint.width = w; out.height = paint.height = h;
+}
+const font = new FontFace('TitleBrush', 'url(assets/title-font.ttf)');
+try { document.fonts.add(await font.load()); } catch (e) { console.warn('font', e); }
+
+const pctx = paint.getContext('2d', { willReadFrequently: true });
+let gpu = null;
+if (!params.has('nogpu')) {
+  try { gpu = createGPU(out, paint); } catch (e) { console.warn('WebGL 不可用，回退到 Canvas2D', e); }
+}
+const octx = gpu ? null : out.getContext('2d');
+document.getElementById('mode').textContent = gpu ? 'WebGL2 + GLSL' : 'Canvas2D';
+
+// 离线渲染入口：同步渲染 t 时刻的一帧（samples>1 时做快门内的子帧累积 = 运动模糊）
+window.renderAt = (t, samples = 1, fps = 60) => {
+  if (gpu) gpu.frame(t, (ts) => EP.renderFrame(pctx, ts, { gpu: true }), { samples, fps, shutter: 0.5 });
+  else EP.renderFrame(octx, t);
+};
+window.cueSheet = () => EP.cueSheet();
+window.GPU_MODE = gpu ? 'webgl2' : 'canvas2d';
+window.READY = true;
+
+if (!params.has('render')) {
+  const audio = document.getElementById('audio');
+  const seek = document.getElementById('seek');
+  const timeEl = document.getElementById('time');
+  seek.max = EP.DURATION;
+  let playing = false, t0 = 0, base = 0;
+  const fmt = (t) => `${Math.floor(t / 60)}:${String(Math.floor(t % 60)).padStart(2, '0')}`;
+  const tick = (now) => {
+    let t = base;
+    if (playing) { t = base + (now - t0) / 1000; if (t >= EP.DURATION) { t = EP.DURATION; playing = false; base = 0; } }
+    renderAt(t);
+    seek.value = t; timeEl.textContent = fmt(t);
+    if (playing) requestAnimationFrame(tick);
+  };
+  document.getElementById('play').onclick = () => {
+    playing = !playing;
+    if (playing) { t0 = performance.now(); audio.currentTime = base; audio.play().catch(() => {}); requestAnimationFrame(tick); }
+    else { base = +seek.value; audio.pause(); }
+  };
+  seek.oninput = () => { base = +seek.value; playing = false; audio.pause(); tick(performance.now()); };
+  tick(0);
+}
+</script>
+</body>
+</html>

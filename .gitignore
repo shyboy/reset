@@ -1,0 +1,4 @@
+node_modules/
+episode01/build/segments/
+episode01/build/stills/
+episode01/build/*.log

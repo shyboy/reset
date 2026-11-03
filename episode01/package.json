@@ -1,0 +1,14 @@
+{
+  "name": "fengpo-episode01",
+  "private": true,
+  "description": "风坡镇 第1集《一杯热水》—— 程序化动画与离线渲染管线",
+  "scripts": {
+    "pipeline": "node tools/pipeline.mjs",
+    "stills": "node tools/pipeline.mjs --only=stills",
+    "render": "node tools/pipeline.mjs --only=frames,audio,mux,qa"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.4.0",
+    "three": "0.170.0"
+  }
+}
