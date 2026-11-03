@@ -741,6 +741,8 @@ def mix(cues_path, out_path):
             continue
         x = fn(c.get('dur'), rng(1000 + idx), c)
         x = np.asarray(x, dtype=np.float64) * c.get('gain', 1.0)
+        # 混音平衡：配乐抬一些，几个冲击声收一些，让“咚”保持全片最响的那一下
+        x *= {'music': 2.4, 'motif': 1.8, 'thud': 0.55, 'pop': 0.7, 'bump': 0.6}.get(c['name'], 1.0)
         pan = c.get('pan', master.uniform(-0.25, 0.25))
         if c['name'] in ('music', 'motif', 'dong', 'cha', 'bell'):
             pan = 0
