@@ -2,3 +2,5 @@ node_modules/
 episode01/build/segments/
 episode01/build/stills/
 episode01/build/*.log
+episode01/build/ep01_一杯热水.mp4
+episode01/build/ep01_audio.wav

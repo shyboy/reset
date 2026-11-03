@@ -1,0 +1,22 @@
+{
+  "duration": 210,
+  "size_mb": 239.9,
+  "video": {
+    "codec": "h264",
+    "w": 1920,
+    "h": 1080,
+    "fps": "60/1",
+    "frames": 12600
+  },
+  "audio": {
+    "codec": "aac",
+    "rate": "48000",
+    "ch": 2
+  },
+  "loudness": "I:         -14.2 LUFS",
+  "black_segments": [],
+  "checks": {
+    "duration_ok": true,
+    "black_only_at_edges": true
+  }
+}
