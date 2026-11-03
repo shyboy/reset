@@ -99,6 +99,15 @@ def scatter(sec, rate, make, seed, jitter=0.6):
 
 
 # ---------------- 拟音合成器 ----------------
+def addp(*xs):
+    """把长度不同的片段对齐后相加"""
+    n = max(len(x) for x in xs)
+    out = np.zeros(n)
+    for x in xs:
+        out[: len(x)] += x
+    return out
+
+
 def click(r, f_lo=800, f_hi=5000, dec=0.012, amp=1.0):
     x = r.standard_normal(n_(dec * 6)) * env_exp(dec * 6, dec)
     return band(x, f_lo, f_hi) * amp
@@ -233,7 +242,7 @@ def _wrapper(dur, r, o):
 @syn('candyrattle')
 def _candy(dur, r, o):
     sec = dur or 1.0
-    return scatter(sec, 14, lambda rr, k: click(rr, 900, 4500, 0.006, rr.uniform(0.4, 1)) + sine(rr.uniform(1800, 2600), 0.03) * env_exp(0.03, 0.006) * 0.4, r.integers(1e9))
+    return scatter(sec, 14, lambda rr, k: addp(click(rr, 900, 4500, 0.006, rr.uniform(0.4, 1)), sine(rr.uniform(1800, 2600), 0.03) * env_exp(0.03, 0.006) * 0.4), r.integers(1e9))
 
 
 @syn('drips')
@@ -466,7 +475,7 @@ def _thudsoft(dur, r, o):
 
 @syn('bump')
 def _bump(dur, r, o):
-    return band(r.standard_normal(n_(0.25)), 150, 1200) * env_exp(0.25, 0.03) * 0.7 + crackle(0.2, 80, r.integers(1e9))[: n_(0.25)] * 0.3
+    return addp(band(r.standard_normal(n_(0.25)), 150, 1200) * env_exp(0.25, 0.03) * 0.7, crackle(0.2, 80, r.integers(1e9)) * 0.3)
 
 
 @syn('bounce')
@@ -711,6 +720,7 @@ def mix(cues_path, out_path):
     birds[(t >= 132) & (t < 140)] *= 0.2
     bed += birds
 
+    print('  声床完成', flush=True)
     # “咚”和“嚓”周围留出安静：声床在前后 1.5 秒压低
     duck = np.ones(n_(total))
     for c in data['cues']:
@@ -736,6 +746,7 @@ def mix(cues_path, out_path):
         place(L, x * gl * 1.2, c['t'])
         place(R, x * gr * 1.2, c['t'])
 
+    print('  拟音完成', flush=True)
     # 简单混响：指数衰减噪声脉冲响应（FFT 卷积），给拟音一点空间
     ir = rng(7).standard_normal(n_(0.9)) * np.exp(-tt(0.9) / 0.25)
     ir = band(ir, 200, 6000)
