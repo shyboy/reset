@@ -712,7 +712,9 @@ def mix(cues_path, out_path):
     lvl[(t < 15)] = 0.075
     lvl[(t >= 132) & (t < 140)] = 0.02    # 镜29 室内
     lvl[(t >= 161) & (t < 175)] = 0.03    # 镜34–35 近景
-    lvl = np.convolve(lvl, np.ones(n_(0.5)) / n_(0.5), mode='same')
+    k = n_(0.5)  # 0.5 秒滑动平均（累加和实现，O(N)）
+    c = np.cumsum(np.concatenate([[0.0], np.pad(lvl, (k // 2, k - k // 2 - 1), mode='edge')]))
+    lvl = (c[k:] - c[:-k]) / k
     bed = waves * lvl
     birds = np.zeros(n_(total))
     place(birds, SYN['birds'](total - 28, rng(2), {}) * 0.35, 28)
